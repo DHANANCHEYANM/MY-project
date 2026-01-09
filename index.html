@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Ambaajee Electricals</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="C:\Users\dhana\Downloads\Sri Ambajee Electricals - Logo.svg" alt="Logo" />
+    </div>
+
+    <div class="header-buttons">
+      <button class="btn outline">Contact Us Today</button>
+      <button class="btn solid">Get Direction</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <img src="C:\Users\dhana\Downloads\Hero Banner.svg" alt="Electrical Cable" />
+    </div>
+  </section>
+
+  <section>
+    <div class="pc-header">
+      <div class="title-dash">
+        <div class="dash"></div>
+        <div>Product Categories</div>
+      </div>
+      <p class="pc-subtitle">
+        Explore Our Full Range of Certified Electrical Supplies
+      </p>
+    </div>
+    <div class="product-wrapper" id="productWrapper">
+      <!-- Cards will be injected here -->
+    </div>
+  </section>
+
+  <section class="brand-sec">
+    <div class="title-dash">
+      <div class="dash"></div>
+      <div>Brands</div>
+    </div>
+    <div class="brands-wrapper">
+      <div class="brand-track">
+        <img src="./assests/scroll1.jpg" alt="Havells">
+        <img src="./assests/scroll2.jpg" alt="Panasonic">
+        <img src="./assests/scroll3.jpg" alt="Anchor">
+        <img src="./assests/scroll4.jpg" alt="Finolex">
+        <img src="./assests/scroll5.jpg" alt="Havells">
+        <img src="./assests/scroll6.jpg" alt="Panasonic">
+        <img src="./assests/scroll7.jpg" alt="Anchor">
+        <img src="./assests/scroll8.jpg" alt="Finolex">
+        <img src="./assests/scroll9.jpg" alt="Havells">
+        <img src="./assests/scroll10.jpg" alt="Panasonic">
+        <img src="./assests/scroll11.jpg" alt="Anchor">
+        <img src="./assests/scroll12.jpg" alt="Finolex">
+        <img src="./assests/scroll13.jpg" alt="Finolex">
+        <img src="./assests/scroll14.jpg" alt="Finolex">
+        <img src="./assests/scroll15.jpg" alt="Finolex">
+        <img src="./assests/scroll16.jpg" alt="Finolex">
+        <img src="./assests/scroll17.jpg" alt="Finolex">
+        <img src="./assests/scroll18.jpg" alt="Finolex">
+        <img src="./assests/scroll19.jpg" alt="Finolex">
+        <img src="./assests/scroll20.jpg" alt="Finolex">
+        <img src="./assests/scroll21.jpg" alt="Finolex">
+        <img src="./assests/scroll22.jpg" alt="Finolex">
+        <img src="./assests/scroll23.jpg" alt="Finolex">
+        <img src="./assests/scroll24.jpg" alt="Finolex">
+        <img src="./assests/scroll25.jpg" alt="Finolex">
+        <img src="./assests/scroll26.jpg" alt="Finolex">
+        <img src="./assests/scroll27.jpg" alt="Finolex">
+      </div>
+    </div>
+  </section>
+
+  <section class="industries">
+    <div class="ind-header">
+      <div class="title-dash">
+        <div class="dash"></div>
+        <div>Industries We Serve</div>
+      </div>
+      <p class="ind-sub">Reliable Supply for Every Sector's Demands</p>
+    </div>
+
+   <div class="ind-row">
+
+  <button class="ind-nav ind-nav-left" onclick="prevSlide()">‹</button>
+
+  <div class="ind-grid" id="indGrid"></div>
+
+  <button class="ind-nav ind-nav-right" onclick="nextSlide()">›</button>
+
+</div>
+
+  </section>
+
+  <section class="brand-sec">
+    <div class="wc-header-choose">
+      <div class="title-dash">
+        <div class="dash"></div>
+        <div>Why Choose Us</div>
+      </div>
+      <p class="wc-subtitle">
+        Genuine Brands. Bulk Stock. Site-Ready Delivery.
+      </p>
+    </div>
+
+    <!-- CARDS -->
+    <div class="wc-slider">
+
+  <button class="wc-nav wc-left" onclick="prevWC()">‹</button>
+
+  <div class="wc-cards" id="wcCards">
+    <!-- cards injected by JS -->
+  </div>
+
+  <button class="wc-nav wc-right" onclick="nextWC()">›</button>
+
+</div>
+
+  </section>
+  <div class="brochure-wrapper">
+    <div class="brochure-btn">
+      Download Our Brochure
+    </div>
+  </div>
+
+ <section class="">
+      <div class="wc-header">
+      <div class="title-dash">
+        <div class="dash"></div>
+        <div>Client Testimonials</div>
+      </div>
+      <div class="wc-subtitle">
+        What Our Customers Say
+      </div>
+    </div>
+   <div class="testimonial-section">
+
+  <span class="arrow left" onclick="prevSlide()">&#10094;</span>
+  <div class="testimonial-container">
+    <div class="testimonial-card" id="leftCard">
+      <div class="stars">★★★★★</div>
+      <p class="text" id="leftText"></p>
+      <h4 class="name" id="leftName"></h4>
+      <span class="role" id="leftRole"></span>
+    </div>
+
+    <div class="testimonial-card" id="rightCard">
+      <div class="stars">★★★★★</div>
+      <p class="text" id="rightText"></p>
+      <h4 class="name" id="rightName"></h4>
+      <span class="role" id="rightRole"></span>
+    </div>
+  </div>
+
+  <span class="arrow right" onclick="nextSlide()">&#10095;</span>
+
+</div>
+
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-wrapper">
+
+      <!-- LEFT CONTENT -->
+      <div class="contact-info">
+        <div class="title-dash">
+          <div class="dash"></div>
+          <div>Tell Us What You Need</div>
+        </div>
+        <div class="contact-desc">
+          We're just one call or form away. Let's get your materials moving.
+        </div>
+        <div class="contact-details">
+          <div>📍 75, Godown Street, Flower Bazaar, PARRYS, George Town, Chennai, Tamil Nadu 600001</div>
+          <div>📞 +91 99626 22633 / +91 99628 19851</div>
+          <div>☎ 044-42166030</div>
+        </div>
+      </div>
+      <!-- RIGHT FORM -->
+      <div class="contact-form">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Phone Number">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Service">
+
+        <button class="submit-btn">Submit your details</button>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+  <p class="footer-text">
+    © 2025 Sri Ambajee Electricals. All rights reserved
+  </p>
+  <p class="footer-text">
+    Marketed By <span class="highlight">Profitcast</span> – Efficient growth, delivered.
+  </p>
+
+  
+</footer>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
